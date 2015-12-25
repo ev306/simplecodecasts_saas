@@ -10,7 +10,7 @@ class ContactsController < ApplicationController
             redirect_to new_contact_path
         else 
             flash[:danger] = "Error - Message was not delivered!"
-             redirect_to new_contact_path
+            redirect_to new_contact_path
         end
     end
     
